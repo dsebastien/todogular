@@ -1,4 +1,4 @@
 <h1>Todo Demo App</h1>
 
-<add-todo>Add todo component is loading... </add-todo>
+<add-todo (todo-added)="todoAdded($event)">Add todo component is loading... </add-todo>
 <list-todos [todos]="todos">Todo list is loading...</list-todos>

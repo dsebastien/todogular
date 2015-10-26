@@ -14,5 +14,4 @@ export class ListTodos {
     @Input() todos:string[];
     constructor() {
     }
-
 }

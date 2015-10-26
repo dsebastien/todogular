@@ -17,4 +17,9 @@ export class TodogularApp {
         this.todos = ['first todo', 'then sleep', 'or watch movie'];
     }
 
+    todoAdded(todo:string) {
+        console.log('adding todo' + todo );
+        this.todos.push(todo);
+    }
+
 }

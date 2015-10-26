@@ -17,8 +17,8 @@ export class AddTodo {
         this.todo = "Default todo";
     }
 
-    public onAddTodo(todo:string) {
+    public onAdd() {
         this.todoAdded.next(this.todo);
-        console.log('the todo is ' + this.todo);
+        console.log('emit event (create todo) =  ' + this.todo);
     }
 }
