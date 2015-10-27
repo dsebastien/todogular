@@ -1,5 +1,6 @@
 <h1>add-todo component</h1>
 <label for="todotext">Todo text</label>
 <input id="todotext" type="text" [(ng-model)]="todo"/>
-<label>{{todo}}</label>
+<br/>
+<label>Do you want to add the todo : {{todo}} ?</label>
 <button type="button" (click)="onAdd()">Add</button>
