@@ -1,4 +1,7 @@
 # todogular
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dsebastien/todogular.svg)](https://greenkeeper.io/)
+
 todo list implemented with angular (demo app)
 
 I have created this application in order to test angular-cli (angular2)
